@@ -28,6 +28,7 @@ h3{
 .row1,.row2,.row3,.row4,.row5{
     margin: 0 100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 5px; 
 }
@@ -66,20 +67,10 @@ footer{
     letter-spacing: 2.5px;
 }
 @media screen and (max-width:1024px){
-    .row1,.row2,.row3,.row4,.row5{
-        margin: 0 100px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding-top: 5px; 
-     }
+    
     .one,.two,.food{
         width:47%;
         height: 500px;
-    }
-    h3{
-        font-size: 2em;
-        padding: 30px 0 10px 0;
     }
 }
 @media screen and (max-width:768px){
